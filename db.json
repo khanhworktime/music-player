@@ -1,0 +1,64 @@
+{
+    "songs-info": [
+        {
+            "name": "Nevada",
+            "singer": "Vicetone",
+            "path": "https://aredir.nixcdn.com/NhacCuaTui924/Nevada-Vicetone-4494556.mp3?st=_IjpS9u0LjapNgzm058wVw&e=1623143773",
+            "image": "https://avatar-ex-swe.nixcdn.com/song/2018/06/19/7/b/9/3/1529382807600_640.jpg"
+        },
+        {
+            "name": "Light It Up",
+            "singer": "Robin Hustin x TobiMorrow",
+            "path": "https://aredir.nixcdn.com/NhacCuaTui968/LightItUp-RobinHustinTobimorrowJex-5619031.mp3?st=kzpVQ5kKnf2LlcAqM6lnxg&e=1623143881",
+            "image": "https://upload.wikimedia.org/wikipedia/en/d/d1/Light_It_Up_%28Remix%29_Major_Lazer_Cover.jpg"
+        },
+        {
+            "name": "Yoru ni kakeru",
+            "singer": "YOASOBI",
+            "path": "https://aredir.nixcdn.com/NhacCuaTui992/YoruNiKakeru-YOASOBI-6149490.mp3?st=68hnFhtGF6RukKDcDcW9Mw&e=1623132179",
+            "image": "https://upload.wikimedia.org/wikipedia/en/9/93/Yoru_ni_Kakeru_cover_art.jpg"
+        },
+        {
+            "name": "Muộn rồi mà sao còn",
+            "singer": "Sơn Tùng M-TP",
+            "path": "https://aredir.nixcdn.com/Believe_Audio19/MuonRoiMaSaoCon-SonTungMTP-7011803.mp3?st=w9AA-eyRI7yD_VYGfvVWeQ&e=1623141624",
+            "image": "https://i.scdn.co/image/ab67616d0000b27329f906fe7a60df7777b02ee1"
+        },
+        {
+            "name": "See You Again",
+            "singer": "Charlie Puth ft Wiz Khalifa",
+            "path": "https://aredir.nixcdn.com/NhacCuaTui894/SeeYouAgain-KurtSchneiderEppicAlexGoot-3888930.mp3?st=1q73myBS8FKr8Rx0snpMJw&e=1623144094",
+            "image": "https://upload.wikimedia.org/wikipedia/vi/8/8d/CharliePuthSeeYouAgain.png"
+        },
+        {
+            "name": "Symphony",
+            "singer": "Clean Bandit",
+            "path": "https://aredir.nixcdn.com/Sony_Audio37/Symphony-CleanBanditZaraLarsson-4822950.mp3?st=sPgJSXtRXYpT_rznXyez6g&e=1623144426",
+            "image": "https://i1.sndcdn.com/artworks-000367292178-lvqk4w-t500x500.jpg"
+        },
+        {
+            "name": "Waiting For Love",
+            "singer": "Avicii",
+            "path": "https://aredir.nixcdn.com/Unv_Audio45/WaitingForLove-Avicii-4203283.mp3?st=mXGv6kIqbxg_coAyUqzlnw&e=1623144462",
+            "image": "https://upload.wikimedia.org/wikipedia/vi/8/81/Avicii%27s_Waiting_For_Love%2C_Cover_Artwork.png"
+        },
+        {
+            "name": "Alone",
+            "singer": "Marshmello",
+            "path": "https://aredir.nixcdn.com/NhacCuaTui927/Alone-Marshmello-4456939.mp3?st=RTsMC9tNcKEi8fd0iKtdaA&e=1623144502",
+            "image": "https://avatar-ex-swe.nixcdn.com/song/2017/10/12/c/7/4/4/1507777010142_640.jpg"
+        },
+        {
+            "name": "Something Just Like This",
+            "singer": "The Chainsmokers & Coldplay",
+            "path": "https://aredir.nixcdn.com/Sony_Audio39/SomethingJustLikeThis-TheChainsmokersColdplay-5337136.mp3?st=VQuH6VgNsPlBizbk-c7n3w&e=1623144556",
+            "image": "https://avatar-ex-swe.nixcdn.com/song/2017/11/07/a/1/4/5/1510038809679_640.jpg"
+        },
+        {
+            "name": "Sugar",
+            "singer": "Maroon 5",
+            "path": "https://aredir.nixcdn.com/Unv_Audio73/Sugar-Maroon5-3338455.mp3?st=3FUWEyikJePPeAuREUcw9g&e=1623144644",
+            "image": "https://upload.wikimedia.org/wikipedia/vi/2/29/Maroon_5_Sugar_bia_dia_don.png"
+        }
+    ]
+}

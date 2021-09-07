@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <script src="https://kit.fontawesome.com/052432e3d9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="heading">
+            <span><b>Now Playing:</b></span>
+            <h2 class="song-name">Song's name</h3>
+        </div>
+        <div class="spinning-disk"
+            style='background: url("https://upload.wikimedia.org/wikipedia/en/4/48/Clean_Bandit_-_Symphony.png")center no-repeat;'>
+        </div>
+        <div class="music-controler">
+            <div class="buttons">
+                <button class="controler-button" id="replay-button"><i class="fas fa-redo"></i></button>
+                <button class="controler-button" id="backward-button"><i class="fas fa-step-backward"></i></button>
+                <button class="controler-button" id="play-button">
+                    <i class="fas fa-play" id="play-icon"></i>
+                    <i class="fas fa-pause" id="pause-icon"></i>
+                </button>
+                <button class="controler-button" id="forward-button"><i class="fas fa-step-forward" id=></i></button>
+                <button class="controler-button" id="suffle-button"><i class="fas fa-random"></i></button>
+            </div>
+            <br>
+            <input title="process" type="range" name="process" id="process-input" value="0" max="100" min="0" step="1">
+            <audio src="" duration="0"></audio>
+        </div>
+    </div>
+    <div class="song-list">
+        <div class="song">
+            <div class="song-img"
+                style='background: url("https://upload.wikimedia.org/wikipedia/en/4/48/Clean_Bandit_-_Symphony.png")center no-repeat;'>
+            </div>
+            <div class="song-info">
+                <h4 class="song-name" style="margin: 0;">Song's name</h4>
+                <span class="song-artist">Singer/Ban</span>
+            </div>
+            <div class="more-option" alt="more">...</div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;900&display=swap');
+:root {
+  --primary-color: #ec1f55;
+  --text-color: #333;
+}
+html, body{
+    width: 414px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.container{
+    width: inherit;
+    position: fixed;
+    box-sizing: border-box;
+    z-index: 1;;
+    top: 0;
+    background:#fff;
+    padding: 14px;
+}
+/* Hedding part */
+.heading{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading span{
+    color: tomato;
+}
+.spinning-disk{
+    position:relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin:0 auto;
+    margin-bottom: 14px;
+}
+/* Controler + Sliceder part */
+.music-controler{
+    display: flex;
+    flex-direction: column;
+}
+#process-input {
+  width: 100%;
+  overflow: hidden;
+  -webkit-appearance: none;
+  height: 6px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+#process-input:hover::-webkit-slider-thumb {
+  background: var(--primary-color);
+  box-shadow: -500px 0 0 500px var(--primary-color);
+}
+#process-input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  cursor: pointer;
+  width: 12px;
+  height: 6px;
+  background: var(--primary-color);
+  box-shadow: -500px 0 0 500px var(--primary-color);
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.controler-button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background:#fff;
+    transform: all 0.5s ease;
+    cursor: pointer;
+}
+#play-button{
+    background: tomato;
+    color: #fff;
+}
+#play-icon{
+    display: inline-block;
+}
+#pause-icon{
+    display: none;
+}
+#play-button[playing] #play-icon {
+    display: none;
+}
+#play-button[playing] #pause-icon{
+    display: inline-block;
+}
+.controler-button[active]{
+    color: tomato;
+}
+
+/* Song List part */
+.song-list{
+    background: rgba(196, 195, 195, 0.26);
+    padding: 14px;
+    height: 100%;
+    box-sizing: border-box;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 414px;
+}
+.song{
+    display: flex;
+    position: relative;
+    background: #fff;
+    height: 72px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 14px;
+    cursor: pointer;
+}
+.song-img{
+    width: 45px;
+    height: 45px;
+    margin:0 0 0 24px;
+    border-radius: 50%;
+}
+.song-info{
+    position: absolute;
+    top:14px;
+    left:96px;
+    display: flex;
+    flex-direction: column;
+}
+.more-option{
+    font-size: 150%;
+    font-weight: bolder;
+    letter-spacing: -2px;
+    margin-top: -16px;
+    padding-right: 24px;
+    margin-left: -24px;
+    cursor: pointer;
+}
+
+/* First list child is the one that playing */
+.song[current]{
+    background:tomato;
+    color: #fff;
+}
+.song:active{
+    opacity: 0.75;
+}
+
