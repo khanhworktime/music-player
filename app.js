@@ -134,7 +134,7 @@ const app = {
                 behavior: 'smooth',
                 block: 'end',
             })
-        }, 1000)
+        }, 2000)
     },
     nextSong: function () {
         if (this.isSuffle) {
